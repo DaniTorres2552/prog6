@@ -1,0 +1,26 @@
+{
+    "data":
+    [
+        {
+            "id":"1",
+            "nombre":"Dani",
+            "apellido":"Torres",
+            "estado":true,
+            "edad":28
+        },
+        {
+            "id":"2",
+            "nombre":"Yulieth",
+            "apellido":"Cardona",
+            "estado":true,
+            "edad":28
+        },
+        {
+            "id":"3",
+            "nombre":"Adrian",
+            "apellido":"TorresCardona",
+            "estado":true,
+            "edad":28
+        }
+    ]
+}

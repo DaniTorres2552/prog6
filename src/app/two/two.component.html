@@ -1,0 +1,39 @@
+<!--
+<form>
+    <h2>Registrar</h2>
+    <div class="form-group">
+        <label >Nombre</label>
+        <input type="text" class="form-control" [(ngModel)]="padreFiliaNombre" >
+    </div>
+
+    <div class="form-group">
+        <label >Cedula</label>
+        <input type="number" class="form-control" [(ngModel)]="padreFiliaCedula" >
+    </div>
+    
+    <div class="form-group">
+        <label >Celular</label>
+        <input type="number" class="form-control" [(ngModel)]="padreFiliaCelular" >
+    </div>
+    <div class="form-group">
+        <label >Correo</label>
+        <input type="email" class="form-control" [(ngModel)]="padreFiliaCorreo" >
+    </div>
+    <div class="form-group">
+        <label >Contraseña</label>
+        <input type="password" class="form-control" [(ngModel)]="padreFiliaPass" >
+    </div>    
+    <button (click)="createRecord()" color="success">Guardar</button>
+    
+</form>
+
+-->
+<h2>Registrar</h2>
+<div class="content">
+    <input type="text" [(ngModel)]="padreFiliaNombre" placeholder="Nombre">    
+    <input type="text" [(ngModel)]="padreFiliaCedula" placeholder="Cedula">
+    <input type="text" [(ngModel)]="padreFiliaCelular" placeholder="Celular">
+    <input type="text" [(ngModel)]="padreFiliaCorreo" placeholder="Correo">
+    <input type="text" [(ngModel)]="padreFiliaPass" placeholder="Contraseña">
+    <button (click)="createRecord()" color="success">Guardar</button>
+</div>

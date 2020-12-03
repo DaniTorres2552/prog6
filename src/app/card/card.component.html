@@ -1,0 +1,74 @@
+<!--
+<div *ngIf = "personas.length > 0  else noData">
+    <div *ngFor="let i of personas">
+        {{i.id}}<br>
+        {{i.nombre}}<br>
+        {{i.apellido}}<br>
+        {{i.estado}}<br>
+        {{i.edad}}<br><br>
+    </div>
+</div>
+
+<ng-template #noData>
+    <div >
+        <h2>No hay datos</h2>
+    </div>
+</ng-template>
+<h2>Crear estudiante</h2>
+-->
+<!--
+
+<div class="col-md-18">
+    <input type="text" class="form-control" [(ngModel)]="busqueda" placeholder="Search">
+</div>
+
+<div class="content">
+    <input type="text" [(ngModel)]="studentName" placeholder="Name">
+    <input type="text" [(ngModel)]="studentAge" placeholder="age">
+    <input type="text" [(ngModel)]="studentAddres" placeholder="Addres">
+    <button (click)="createRecord()" color="success">Guardar</button>
+
+</div>
+
+<hr>
+<h2>Consulta estudiante</h2>
+
+
+<div *ngIf = "students.length > 0  else noData">
+    <div *ngFor="let i of students">
+        Nombre: {{i.Name}}<br>
+        Edad: {{i.Age}}<br>
+        Direccion: {{i.Address}}<br><br>
+    </div>
+
+</div>
+
+
+
+<ng-template #noData>
+    <div >
+        <h2>No hay datos</h2>
+    </div>
+</ng-template>
+
+
+<div class="container">
+    <h6>Cedula</h6><input type="text" [(ngModel)]="studentName" placeholder="Name"> <br>
+    <h6>Contraseña</h6><input type="text" [(ngModel)]="studentAge" placeholder="age">    
+    <button (click)="createRecord()" color="success">Entrar</button>
+    <a href="#">registrar</a>
+
+</div>
+-->
+
+
+
+
+<div class="content">    
+    <input type="text" [(ngModel)]="padreFiliaCedula" placeholder="Cedula">
+    
+    <input type="text" [(ngModel)]="padreFiliaPass" placeholder="Contraseña">
+    <button (click)="signIn()" color="success">Guardar</button>
+    <a href="http://localhost:4200/two">Registrar</a>
+</div>
+
